@@ -4,7 +4,7 @@ from django.shortcuts import render
 
 
 def home(request):
-    return render(request, 'home.html',{'hithere':'This is me'})
+    return render(request, 'home.html',{'hithere':'This is us'})
 
 def eggs(request):
     return HttpResponse('<h1>Eggs</h1>')
